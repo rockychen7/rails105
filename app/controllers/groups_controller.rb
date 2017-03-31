@@ -38,7 +38,7 @@ end
 
   def destroy
     @group.destroy
-    redirect_to groups_path, alert: = "Group Deleted"
+    redirect_to groups_path, alert: "Group Deleted"
   end
 
   private
